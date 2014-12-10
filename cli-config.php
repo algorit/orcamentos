@@ -1,8 +1,9 @@
 <?php
 
+$loader = require __DIR__.'/vendor/autoload.php';
+
 Dotenv::load(__DIR__);
 
-$loader = require __DIR__.'/vendor/autoload.php';
 $loader->add('Orcamentos', __DIR__.'/src');
 
 $configValues = require __DIR__ . '/config/config.php';

@@ -1,8 +1,8 @@
 <?php
 
-Dotenv::load(__DIR__);
-
 require_once __DIR__.'/vendor/autoload.php';
+
+Dotenv::load(__DIR__);
 
 use Silex\Application;
 use Silex\Provider\DoctrineServiceProvider;
