@@ -1,5 +1,7 @@
 <?php
 
+Dotenv::load(__DIR__);
+
 require_once __DIR__.'/vendor/autoload.php';
 
 use Silex\Application;
@@ -7,8 +9,6 @@ use Silex\Provider\DoctrineServiceProvider;
 use Symfony\Component\HttpFoundation\Request;
 use Dflydev\Silex\Provider\DoctrineOrm\DoctrineOrmServiceProvider;
 use Symfony\Component\HttpFoundation\Response;
-
-Dotenv::load(__DIR__);
 
 $app = new Application();
 
