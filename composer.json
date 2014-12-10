@@ -15,7 +15,8 @@
         "swiftmailer/swiftmailer": ">=4.1.2,<4.2-dev",
         "dflydev/doctrine-orm-service-provider": "1.0.*@dev",
         "zendframework/zend-crypt": "*",
-        "pagerfanta/pagerfanta": "1.0.*@dev"
+        "pagerfanta/pagerfanta": "1.0.*@dev",
+        "vlucas/phpdotenv": "~1.0"
     },
     "require-dev": {
         "sebastian/phpcpd": "*",
