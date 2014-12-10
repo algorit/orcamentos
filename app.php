@@ -8,6 +8,8 @@ use Symfony\Component\HttpFoundation\Request;
 use Dflydev\Silex\Provider\DoctrineOrm\DoctrineOrmServiceProvider;
 use Symfony\Component\HttpFoundation\Response;
 
+Dotenv::load(__DIR__);
+
 $app = new Application();
 
 $app['debug'] = true;
